@@ -59,6 +59,7 @@ const MyProcesses = () => {
           transition={{
             bounce: 0,
           }}
+          viewport={{ once: true }}
           className="text-xl py-12 pb-6 uppercase m-auto w-[100%] tracking-widest font-extralight"
         >
           The Process.
@@ -80,6 +81,7 @@ const MyProcesses = () => {
                   bounce: 0,
                   delay: 0.5,
                 }}
+                viewport={{ once: true }}
               >
                 <Image
                   alt="call"

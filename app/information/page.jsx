@@ -13,6 +13,7 @@ const page = () => {
           <motion.h3
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
             className=" text-theme_dark_orange-900 text-xl text-center md:text-left capitalize col-span-2 mb-10 "
           >
             What is Next.js and why should you consider it?
@@ -24,6 +25,7 @@ const page = () => {
             transition={{
               bounce: 0,
             }}
+            viewport={{ once: true }}
             className="md:pl-10 w-[95%] col-span-8 m-auto"
           >
             <p className="mb-10 m-auto">
@@ -53,6 +55,7 @@ const page = () => {
           <motion.h3
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
             className=" text-theme_dark_orange-900 text-xl text-center md:text-left capitalize col-span-2 mb-10"
           >
             Why are Next.js websites so fast?
@@ -64,6 +67,7 @@ const page = () => {
             transition={{
               bounce: 0,
             }}
+            viewport={{ once: true }}
             className="md:pl-10 w-[100%] col-span-8 m-auto"
           >
             <p className="mb-10">
@@ -94,6 +98,7 @@ const page = () => {
           <motion.h3
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
             className=" text-theme_dark_orange-900 text-xl text-center md:text-left capitalize col-span-2 mb-10"
           >
             The importance of owning a fast website!
@@ -105,6 +110,7 @@ const page = () => {
             transition={{
               bounce: 0,
             }}
+            viewport={{ once: true }}
             className="md:pl-10 w-[100%] col-span-8 m-auto"
           >
             <p className="mb-10">
@@ -143,6 +149,7 @@ const page = () => {
           <motion.h3
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
             className=" text-theme_dark_orange-900 text-xl text-center md:text-left capitalize col-span-2 mb-10"
           >
             Already have a Wordpress website?{" "}
@@ -154,6 +161,7 @@ const page = () => {
             transition={{
               bounce: 0,
             }}
+            viewport={{ once: true }}
             className="md:pl-10 w-[100%] col-span-8 m-auto"
           >
             <p className="">
@@ -171,6 +179,7 @@ const page = () => {
           <motion.h3
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
             className=" text-theme_dark_orange-900 text-xl text-center md:text-left capitalize col-span-2 mb-10"
           >
             How about e-commerce websites?{" "}
@@ -182,6 +191,7 @@ const page = () => {
             transition={{
               bounce: 0,
             }}
+            viewport={{ once: true }}
             className="md:pl-10 w-[100%] col-span-8 m-auto"
           >
             <p className="mb-10">

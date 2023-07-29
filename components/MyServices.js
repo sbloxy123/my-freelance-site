@@ -51,7 +51,7 @@ const MyServices = () => {
   ];
 
   return (
-    <section itemscope itemtype="https://schema.org/CreativeWork">
+    <section itemScope itemType="https://schema.org/CreativeWork">
       <div className="bg-theme_peach-900 py-10 font-light tracking-wide">
         <div className="m-4 medium:content-container">
           <motion.h3
@@ -60,6 +60,7 @@ const MyServices = () => {
             transition={{
               bounce: 0,
             }}
+            viewport={{ once: true }}
             className="uppercase tracking-widest text-xl md:py-12 pb-6 m-auto w-[100%] font-extralight"
           >
             Services.
@@ -85,6 +86,7 @@ const MyServices = () => {
                     bounce: 0,
                     delay: 0.5,
                   }}
+                  viewport={{ once: true }}
                 >
                   <Image
                     className="md:col-span-1 h-16 w-16 md:my-0 mb-4 mx-auto"

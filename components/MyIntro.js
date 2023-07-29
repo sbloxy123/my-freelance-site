@@ -8,8 +8,8 @@ import { motion } from "framer-motion";
 const MyIntro = () => {
   return (
     <section
-      itemscope
-      itemtype="https://schema.org/CreativeWork"
+      itemScope
+      itemType="https://schema.org/CreativeWork"
       className="my-intro"
     >
       <div className="max-w-7xl m-auto">
@@ -19,7 +19,8 @@ const MyIntro = () => {
               <motion.h1
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
-                itemprop="about"
+                viewport={{ once: true }}
+                itemProp="about"
                 className="md:text-3xl md:pb-6 md:text-left text-2xl text-center font-extralight"
               >
                 Freelance Web Designer and Developer building incredibly fast
@@ -36,6 +37,7 @@ const MyIntro = () => {
                     bounce: 0,
                     delay: 0.2,
                   }}
+                  viewport={{ once: true }}
                 >
                   <Link
                     type="button"
@@ -53,6 +55,7 @@ const MyIntro = () => {
                     bounce: 0,
                     delay: 0.4,
                   }}
+                  viewport={{ once: true }}
                 >
                   <Link
                     type="button"

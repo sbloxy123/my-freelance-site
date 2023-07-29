@@ -21,6 +21,7 @@ const ProjectTwo = () => {
               transition={{
                 delay: 0.5,
               }}
+              viewport={{ once: true }}
               className="md:w-[50%] h-fit my-auto"
             >
               <div className="uppercase flex justify-between border-b border-theme_white-900 mb-12">
@@ -49,9 +50,17 @@ const ProjectTwo = () => {
                 delay: 0.6,
                 duration: 0.2,
               }}
+              viewport={{ once: true }}
               className="md:my-auto h-fit"
             >
-              <Image src={preview_img} alt="lce" width={500} height={500} />
+              <Image
+                className="w-auto h-auto"
+                src={preview_img}
+                alt="lce"
+                width={500}
+                height={500}
+                priority={false}
+              />
             </motion.div>
           </div>
         );

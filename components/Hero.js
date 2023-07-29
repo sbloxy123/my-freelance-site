@@ -25,14 +25,15 @@ const Hero = () => {
   return (
     <>
       <div className="h-90">
-        <div className="  relative z-0 h-fit bg-black">
+        <div className="  relative z-0 h-fit bg-black ">
           <Image
-            className="opacity-50"
+            className="opacity-50 bg-center cover"
             src="/images/hero6.jpg"
             alt="background image"
-            layout="fill"
-            objectFit="cover"
-            objectPosition="center"
+            fill
+            priority
+            // objectFit="cover"
+            // objectPosition="center"
           />
           <div className="max-w-7xl m-auto z-10 relative h-[60vh] ">
             <div className="hero-text pt-16 bg-blend-darken pl-6">

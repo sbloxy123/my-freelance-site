@@ -48,7 +48,6 @@ const ContactForm = () => {
                     col="10"
                     rows="5"
                     className="form-control"
-                    i
                   ></textarea>
                 </div>
                 <div className="p-0 ">
