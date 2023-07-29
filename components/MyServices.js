@@ -20,14 +20,14 @@ const MyServices = () => {
     {
       title: "CMS (Content Management Service) integration",
       description:
-        "CMSs offer a fantastic way to manage your content by yourself. Perhaps you have heard of Wordpress?.. this is a CMS. I can integrate a number of these great services such as Contentful, Strapi and Wordpress to your Gatsby Site - all with excellent performance results.",
+        "CMSs offer a fantastic way to manage your content by yourself. You&apos;ve likely heard of Wordpress?.. this is a CMS. I can integrate a number of these great services such as Contentful, Strapi and Wordpress to your Gatsby Site - all with excellent performance results.",
       icon: { cms },
     },
 
     {
       title: "Website Development",
       description:
-        "By using modern technologies, I'm able to build fast and interactive sites that your audience will enjoy visiting. Nobody likes to visit a clunky, slow website and it can be detrimental you your business.",
+        "By using modern technologies, I&apos;m able to build fast and interactive sites that your audience will enjoy visiting. Nobody likes to visit a clunky, slow website and it can be detrimental you your business.",
       icon: { code },
     },
     {

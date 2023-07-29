@@ -32,7 +32,7 @@ const page = () => {
               results.
             </p>
             <p className="mb-4 m-auto text-xl font-semibold text-center md:text-left">
-              Here's how Next.js benefits the websites I create:
+              Here&apos;s how Next.js benefits the websites I create:
             </p>
 
             <div className="mb-10 mx-auto">
@@ -43,7 +43,7 @@ const page = () => {
               faster, more secure, and beautiful websites. It ensures your
               website looks good, loads quickly, and is easy to maintain and
               improve in the long run. So, when you see a fantastic website or
-              web app online, there's a good chance that it was built using
+              web app online, there&apos;s a good chance that it was built using
               Next.js!
             </p>
           </motion.div>
@@ -206,10 +206,10 @@ const page = () => {
               Already have an existing e-commerce store?
             </p>
             <p>
-              This won’t be a problem - if you’re happy with the way your store
-              management platform works for you (and depending on which platform
-              you use), we can link your inventory to a new, ‘headless’,
-              customer-facing website. Let’s chat 🤙{" "}
+              This won&apos;t be a problem - if you&apos;re happy with the way
+              your store management platform works for you (and depending on
+              which platform you use), we can link your inventory to a new,
+              &apos;headless&apos;, customer-facing website. Let&apos;s chat 🤙
             </p>
           </motion.div>
         </div>

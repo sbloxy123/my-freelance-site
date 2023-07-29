@@ -1,10 +1,7 @@
 import Hero from "../components/Hero";
 import MyIntro from "../components/MyIntro";
-import ContactForm from "../components/ContactForm";
 import Project from "../components/Project";
 import MyServices from "../components/MyServices";
-import GatsbyInfo from "../components/GatsbyInfo";
-import ClickHere from "../components/ClickHere";
 import MyProcesses from "@/components/MyProcesses";
 
 export default function Home() {
