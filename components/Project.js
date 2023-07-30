@@ -2,7 +2,6 @@
 import Image from "next/image";
 import projectData from "../data/projectData";
 import { motion } from "framer-motion";
-import ProjectTags from "./projectTags";
 
 const ProjectTwo = () => {
   const fadeInAnimationVariants = {
