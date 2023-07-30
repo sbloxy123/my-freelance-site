@@ -7,32 +7,32 @@ export const allIngredients = [
   {
     icon: "",
     label: "1. Faster Loading and Better Search Results",
-    text: "Next.js makes your website load faster because it prepares some parts of it in advance, making it quicker for people to see and use. This is essential because people don't like waiting for slow websites. Also, it helps search engines understand your website better, so when someone searches for something related to your website, it's more likely to appear in the search results.",
+    text: "Your website load faster because it prepares some parts of it in advance, making it quicker for people to see and use. This is essential because people don't like waiting for slow websites. Also, it helps search engines understand your website better, so when someone searches for something related to your website, it's more likely to appear in the search results",
   },
   {
     icon: "",
     label: "2. Smooth Development Process",
-    text: "Next.js allows us to create beautiful and consistent designs for your website. It ensures that the colors, styles, and layouts stay the same across all pages, making your website look professional and appealing.",
+    text: "Next.js helps developers like me write code more easily and see the changes we make instantly without causing disruptions. This means we can build your website faster and more efficiently.",
   },
   {
     icon: "",
     label: "3. Attractive and Consistent Design",
-    text: "Unlike most traditional LAMP stack websites, the need for servers to perform logic and work whilst your visitors wait for the page to load is removed... which also ultimately removes the ways the website can be attacked by malicious code from hackers.",
+    text: "Allows us to create beautiful and consistent designs for your website. It ensures that the colors, styles, and layouts stay the same across all pages, making your website look professional and appealing.",
   },
   {
     icon: "",
     label: "4. Organization of the Website's Code",
-    text: "Next.js helps us keep the different parts of your website organized, which makes it easier to find and fix any problems that might come up during development.",
+    text: "It helps me keep the different parts of your website organized, which makes it easier to find and fix any problems that might come up during and after development.",
   },
   {
     icon: "",
-    label: "5. Top-Notch Security and Stability",
+    label: "5. Excellent Security and Stability",
     text: "Next.js is designed to be safe and secure, protecting your website from potential threats and keeping it stable so that people can access it whenever they want.",
   },
   {
     icon: "",
     label: "6. Easy Updates and Improvements",
-    text: "With Next.js, it's straightforward to add new features and make improvements to your website in the future. This means we can keep your website up-to-date and relevant for a long time.",
+    text: "It's straightforward to add new features and make improvements to your website in the future. This means we can keep your website up-to-date and relevant for a long time.",
   },
   {
     icon: "",

@@ -10,6 +10,7 @@ const projectData = {
       ],
       date_completed: "2023 - PRESENT",
       preview_img: "/images/lce/Group6.png",
+      tags: ["E-Commerce", "Design", "Development", "Next.js", "Hosting"],
     },
     {
       id: 2,
@@ -21,6 +22,12 @@ const projectData = {
       ],
       date_completed: "2021",
       preview_img: "/images/lace/lace.png",
+      tags: [
+        "Design",
+        "Development",
+        "Strapi CMS (Content Management System)",
+        "Gatsby.js",
+      ],
     },
     {
       id: 3,
@@ -32,6 +39,12 @@ const projectData = {
       ],
       date_completed: "2021",
       preview_img: "/images/bryan/bryan.png",
+      tags: [
+        "Design",
+        "Development",
+        "Strapi CMS (Content Management System)",
+        "Gatsby.js",
+      ],
     },
   ],
 };
