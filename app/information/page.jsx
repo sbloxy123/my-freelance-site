@@ -7,8 +7,8 @@ import { motion } from "framer-motion";
 const page = () => {
   return (
     <section className="bg-white-900">
-      <div className="py-20 px-2">
-        <h1 className="pb-20 text-4xl w-fit m-auto">About Next.js</h1>
+      <div className="py-4 px-2">
+        <h1 className="py-20 text-4xl w-fit m-auto">About Next.js</h1>
         <div className="sm:content-container md:grid md:grid-cols-10 m-auto w-[100%] md:w-[90%]">
           <motion.h3
             initial={{ opacity: 0 }}
@@ -51,7 +51,7 @@ const page = () => {
           </motion.div>
         </div>
         <hr className="w-[95%] md:w-[70%] m-auto" />
-        <div className="pt-10  sm:py-20 sm:content-container md:grid md:grid-cols-10 m-auto w-[95%] lg:w-[70%]">
+        <div className="py-10  sm:py-20 sm:content-container md:grid md:grid-cols-10 m-auto w-[95%] lg:w-[70%]">
           <motion.h3
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -94,7 +94,7 @@ const page = () => {
         </div>
         <hr className="w-[95%] md:w-[70%] m-auto" />
 
-        <div className="pt-10  sm:py-20 sm:content-container md:grid md:grid-cols-10 m-auto w-[95%] md:w-[70%]">
+        <div className="py-10  sm:py-20 sm:content-container md:grid md:grid-cols-10 m-auto w-[95%] md:w-[70%]">
           <motion.h3
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -145,7 +145,7 @@ const page = () => {
         </div>
         <hr className="w-[95%] md:w-[70%] m-auto" />
 
-        <div className="pt-10  sm:py-20 sm:content-container md:grid md:grid-cols-10 m-auto w-[95%] md:w-[70%]">
+        <div className="py-10  sm:py-20 sm:content-container md:grid md:grid-cols-10 m-auto w-[95%] md:w-[70%]">
           <motion.h3
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -175,7 +175,7 @@ const page = () => {
           </motion.div>
         </div>
         <hr className="w-[95%] md:w-[70%] m-auto" />
-        <div className="pt-10  sm:py-20 sm:content-container md:grid md:grid-cols-10 m-auto w-[95%] md:w-[70%]">
+        <div className="py-10  sm:py-20 sm:content-container md:grid md:grid-cols-10 m-auto w-[95%] md:w-[70%]">
           <motion.h3
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}

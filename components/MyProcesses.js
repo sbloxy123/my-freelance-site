@@ -21,7 +21,7 @@ const MyProcesses = () => {
     {
       title: "2. Content",
       description:
-        "Once a plan in in place, I will explain the details of what I need to get started on your site",
+        "Once a plan is in place, I will explain the details of what I need to get started on your site",
       icon: { content },
     },
 
@@ -40,7 +40,7 @@ const MyProcesses = () => {
     {
       title: "5. Develop",
       description:
-        "Leave this bit with me! This is the part where I use my expertise to make the site interactive and functional and SEO friendly",
+        "Leave this bit with me! This is the part where I use my expertise to make the site interactive, functional and SEO friendly",
       icon: { develop },
     },
     {
