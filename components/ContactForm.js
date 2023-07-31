@@ -7,7 +7,7 @@ const ContactForm = () => {
       <div className="content-container py-12">
         <div className="d-flex justify-content-center align-items-center login-box">
           <div className="">
-            <div className="text-theme_white-900 text-center w-[40%] mx-auto py-12 text-2xl">
+            <div className="text-theme_white-900 text-center w-[100%] md:w-[40%] mx-auto py-12 text-2xl">
               GET IN TOUCH
             </div>
             <div className="col-span-12 text-left">

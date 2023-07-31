@@ -7,7 +7,7 @@ const HeroServices = () => {
       <div>
         <div className="hidden lg:block m-auto z-10">
           <div className="pt-16 bg-blend-darken pl-6">
-            <div className="lg-css-typing text-6xl text-center">
+            <div className="lg-css-typing text-6xl text-center sm:font-normal">
               <p
                 id="consult"
                 className="text-slate-200 border-spacing-0  mx-auto"
