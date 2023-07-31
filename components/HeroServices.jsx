@@ -5,7 +5,7 @@ const HeroServices = () => {
   return (
     <div className="w-fit mx-auto md:block m-auto z-10 h-[60vh] lg:mt-28">
       <div>
-        <div className="hidden lg:block m-auto z-10 relative">
+        <div className="hidden lg:block m-auto z-10">
           <div className="pt-16 bg-blend-darken pl-6">
             <div className="lg-css-typing text-6xl text-center">
               <p

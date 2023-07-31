@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Hero_cta = () => {
   return (
-    <div className="h-fit z-50 relative lg:w-[70%] md:w-[80%]">
+    <div className="h-fit z-50 lg:w-[70%] md:w-[80%]">
       <motion.h1
         initial={{ opacity: 0, scale: 0.5 }}
         whileInView={{ opacity: 1, scale: 1 }}
@@ -27,13 +27,11 @@ const Hero_cta = () => {
           }}
           viewport={{ once: true }}
         >
-          <Link
-            type="button"
-            className="py-3 md:px-15 w-full text-center mb-6 rounded-sm text-lg bg-theme_green-900 hover:bg-theme_black-900 hover:text-theme_green-900 uppercase border border-theme_black-900 hover:border-2 hover:border-theme_green-900"
-            href="/projects/"
-          >
-            My Work
-          </Link>
+          <div className="py-3 md:px-15 w-full text-center mb-6 rounded-sm text-lg bg-theme_green-900 hover:bg-theme_black-900 hover:text-theme_green-900 uppercase border border-theme_black-900 hover:border-2 hover:border-theme_green-900">
+            <Link type="button" href="/projects/">
+              My Work
+            </Link>
+          </div>
         </motion.div>
         <motion.div
           className="md:w-[50%]"
@@ -45,16 +43,11 @@ const Hero_cta = () => {
           }}
           viewport={{ once: true }}
         >
-          <Link
-            type="button"
-            className="py-3 md:px-15 uppercase w-full text-center mb-6 rounded-sm border-2 border-theme_dark_orange-900 text-theme_dark_orange-900 font-semibold text-lg
-                  hover:text-theme_black-900
-                  hover:bg-theme_light_orange-900
-                  "
-            href="/information/"
-          >
-            What is Next.js?
-          </Link>
+          <div className="py-3 md:px-15 uppercase w-full text-center mb-6 rounded-sm border-2 border-theme_dark_orange-900 text-theme_dark_orange-900 font-semibold text-lg hover:text-theme_black-900 hover:bg-theme_light_orange-900">
+            <Link type="button" href="/information/">
+              What is Next.js?
+            </Link>
+          </div>
         </motion.div>
       </div>{" "}
     </div>
