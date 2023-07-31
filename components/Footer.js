@@ -7,7 +7,7 @@ const Footer = () => {
     <footer
       itemScope
       itemType="https://schema.org/Organization"
-      className="text-theme_black-900 bg-theme_peach-900 text-center p-24 w-[100%]"
+      className="text-theme_black-900 content-container py-10 bg-theme_peach-900 text-center w-[100%]"
     >
       <Link href="/">
         <Image
@@ -20,8 +20,8 @@ const Footer = () => {
         />
       </Link>
       <br />
-      <div className="mb-8 ">
-        <Link itemProp="name" className="text-3xl md:text-4xl" href="/">
+      <div className="mb-8 border ">
+        <Link itemProp="name" className="text-2xl md:text-4xl border" href="/">
           Bloxy Web Services.
         </Link>
       </div>
