@@ -9,7 +9,7 @@ const Hero_cta = () => {
         whileInView={{ opacity: 1, scale: 1 }}
         viewport={{ once: true }}
         itemProp="about"
-        className="text-4xl lg:text-6xl md:text-5xl z-10 text-center md:text-left font-extralight md:font-thin text-theme_white-900"
+        className="text-4xl lg:text-6xl md:text-5xl z-10 text-center md:text-left font-extralight md:font-thin text-theme_white-900 "
       >
         Freelance Web Designer and Developer building incredibly fast websites
         using{" "}
