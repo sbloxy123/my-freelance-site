@@ -17,8 +17,9 @@ const mulish = Mulish({
 });
 
 export const metadata: Metadata = {
-  title: "Bloxy Web Services",
-  description: "Freelance Web Designer & Developer",
+  title: "Bloxy Web Services | Freelance Web Designer & Developer 👨‍💻",
+  description:
+    "🚀 Supercharge your online presence with incredibly fast websites & apps 🚀 - E-Commerce 🛍️ | Lead Gen 🎯 | Business 🏢 | + more!",
   metadataBase: new URL("https://www.bloxywebservices.co.uk"),
   openGraph: {
     images: "/opengraph-image.png",
