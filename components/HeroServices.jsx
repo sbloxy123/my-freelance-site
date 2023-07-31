@@ -6,12 +6,12 @@ const HeroServices = () => {
     <div className="md:block m-auto z-10 h-[100vh] ">
       {/* === DESKTOP VERSION === */}
       <div>
-        <div className="hidden md:block m-auto z-10 relative">
-          <div className="pt-16 bg-blend-darken pl-6">
+        <div className="hidden sm:block m-auto z-10 relative">
+          <div className="pt-16 bg-blend-darken ">
             <div className="lg-css-typing text-6xl text-center">
               <p
                 id="consult"
-                className="text-slate-200 border-spacing-0  mx-auto"
+                className="text-slate-200 border-spacing-0 mx-auto"
               >
                 <span className="text-slate-200 border-spacing-0">
                   CONSULT.
@@ -29,7 +29,7 @@ const HeroServices = () => {
       </div>
 
       {/*========= MOBILE VERSION =======*/}
-      <div className="md:hidden">
+      <div className="sm:hidden">
         <div className="m-auto z-10 relative">
           <div className="hero-text pt-12 bg-blend-darken pl-6">
             <div className="css-typing text-6xl text-center">

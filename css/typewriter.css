@@ -3,15 +3,15 @@
   border: 0;
   border-right: 0.15em solid orange;
   font-family: "Courier";
-  font-size: 2.5rem;
+  font-size: 2rem;
   white-space: nowrap;
   overflow: hidden;
-  letter-spacing: 0.6rem;
+  letter-spacing: 0.5rem;
   line-height: 4rem;
 }
 
 .lg-css-typing p:nth-child(1) {
-  width: 80%;
+  width: 100%;
   opacity: 0;
   -webkit-animation: type-lg 4s steps(80, end);
   animation: type-lg 4s steps(80, end);
@@ -101,7 +101,7 @@
 }
 
 .css-typing p:nth-child(3) {
-  width: 7em;
+  width: 9em;
   opacity: 0;
   -webkit-animation: type3 2s steps(40, end);
   animation: type3 2s steps(40, end), blink 0.5s step-end infinite alternate;

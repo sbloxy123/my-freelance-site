@@ -20,7 +20,7 @@ const Hero = () => {
             // objectPosition="center"
           />
         </div>
-        <div className=" relative md:content-container h-fit pt-20 md:pt-28 lg:pt-40 z-50  px-4">
+        <div className="relative md:content-container h-fit pt-20 md:pt-28 lg:pt-40 z-50  px-4">
           <Hero_cta />
           <HeroServices />
         </div>
