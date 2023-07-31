@@ -20,8 +20,8 @@ const Footer = () => {
         />
       </Link>
       <br />
-      <div className="mb-8">
-        <Link itemProp="name" className="text-4xl" href="/">
+      <div className="mb-8 ">
+        <Link itemProp="name" className="text-3xl md:text-4xl" href="/">
           Bloxy Web Services.
         </Link>
       </div>
@@ -37,7 +37,7 @@ const Footer = () => {
           Tel: 07806 615231
         </a>
         <br />
-        <a itemProp="email" href="mailto:stuart@sjbloxham.co.uk">
+        <a itemProp="email" href="mailto:stuart@bloxywebservices.co.uk">
           Email:{" "}
           <span className="hover:text-theme_dark_orange-900">
             stuart@bloxywebservices.co.uk

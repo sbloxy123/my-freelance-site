@@ -6,30 +6,16 @@ import MyProcesses from "@/components/MyProcesses";
 
 export default function Home() {
   return (
-    <main>
+    <main className="bg-theme_white-900">
       <Hero />
-      <MyIntro />
-      <div className="gatsby-info">
-        {/* <GatsbyInfo /> */}
-        <div className="container">
-          {/* <ClickHere url="/information/" content="learn more" /> */}
-        </div>
-      </div>
-      <div className="services">
-        <MyServices />
-        <div className="container">
-          {/* <ClickHere url="/services/" content="learn more" /> */}
-        </div>
-        <MyProcesses />
-      </div>
+      {/* <MyIntro /> */}
+      <MyServices />
+      <MyProcesses />
       <div className="bg-theme_black-900">
         <h2 className="uppercase text-theme_white-900 mx-6 md:content-container pt-24 text-xl tracking-widest font-extralight">
           Latest work.
         </h2>
         <Project />
-      </div>
-      <div className="container">
-        {/* <ClickHere url="/my-work/" content="learn more" /> */}
       </div>
       {/* <ContactForm /> */}
     </main>

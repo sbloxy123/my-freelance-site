@@ -1,33 +1,17 @@
+"use client";
 import React from "react";
+import Hero_cta from "./Hero_cta";
 import "../css/typewriter.css";
-import "../css/background-image.css";
 import Image from "next/image";
+import HeroServices from "./HeroServices";
 
 const Hero = () => {
-  const hats = [
-    {
-      prep: "",
-      suffix: "Web Design",
-    },
-    {
-      prep: "",
-      suffix: "Web Development",
-    },
-    {
-      prep: "",
-      suffix: "Domain Setup",
-    },
-    {
-      prep: "",
-      suffix: "E-Commerce",
-    },
-  ];
   return (
     <>
-      <div className="h-90">
-        <div className="  relative z-0 h-fit bg-black ">
+      <div className="h-[100vh]">
+        <div className="relative z-0 h-screen bg-black ">
           <Image
-            className="opacity-50 bg-center cover"
+            className="opacity-40 bg-center cover"
             src="/images/hero6.jpg"
             alt="background image"
             fill
@@ -35,15 +19,21 @@ const Hero = () => {
             // objectFit="cover"
             // objectPosition="center"
           />
-          <div className="max-w-7xl m-auto z-10 relative h-[60vh] ">
+          <div className="md:content-container h-fit pt-20 lg:pt-48 md:pt-32 z-50 relative px-4">
+            <Hero_cta />
+            <HeroServices />
+          </div>
+
+          {/* <div className="max-w-7xl m-auto z-10 relative h-[60vh] ">
             <div className="hero-text pt-16 bg-blend-darken pl-6">
               <div className="css-typing">
                 <p id="consult" className="text-slate-200 border-spacing-0">
-                  CONSULT.{" "}
+                  CONSULT.
                 </p>
                 <p id="design" className="text-theme_peach-900">
                   DESIGN.
                 </p>
+
                 <p
                   id="develop"
                   className="text-theme_green-900 border-spacing-0"
@@ -52,8 +42,7 @@ const Hero = () => {
                 </p>
               </div>
             </div>
-            {/* <TypeWriter hats={hats} /> */}
-          </div>
+          </div> */}
         </div>
       </div>
     </>
