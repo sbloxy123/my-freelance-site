@@ -7,7 +7,7 @@ const Footer = () => {
     <footer
       itemScope
       itemType="https://schema.org/Organization"
-      className="text-theme_black-900 content-container py-10 bg-theme_peach-900 text-center w-[100%]"
+      className="text-theme_black-900  py-10 w-screen bg-theme_peach-900 text-center "
     >
       <Link href="/">
         <Image
@@ -28,7 +28,7 @@ const Footer = () => {
       <p itemProp="description" className="capitalize">
         Professional website designer and developer
       </p>
-      <div className="my-10 border-b border-theme_black-900 w-[100%] m-auto pb-8 mb-8">
+      <div className="my-10  w-[100%] m-auto pb-8 mb-8">
         <a
           itemProp="telephone"
           href="tel:07806615231"
@@ -44,6 +44,7 @@ const Footer = () => {
           </span>
         </a>
       </div>
+      <div className="border-b border-theme_black-900 w-[80%] m-auto mb-10"></div>
       {/* <hr className="my-10 h-1 mb-8 w-[50%] mx-auto  bg-theme_black-900"></hr> */}
       <ul className="p-0 mb-8 text-theme_black-900">
         <li>
