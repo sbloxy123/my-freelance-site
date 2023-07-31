@@ -19,6 +19,10 @@ const mulish = Mulish({
 export const metadata: Metadata = {
   title: "Bloxy Web Services",
   description: "Freelance Web Designer & Developer",
+  metadataBase: new URL("https://www.bloxywebservices.co.uk"),
+  openGraph: {
+    images: "/opengraph-image.png",
+  },
 };
 
 export default function RootLayout({

@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <>
       <div className="relative z-10 h-screen bg-black">
-        <div className="z-0">
+        <div className="">
           <Image
             className="opacity-40 bg-center"
             src="/images/hero6.jpg"
@@ -20,7 +20,7 @@ const Hero = () => {
             // objectPosition="center"
           />
         </div>
-        <div className="relative md:content-container h-fit pt-20 lg:pt-48 md:pt-32 z-50  px-4">
+        <div className=" relative md:content-container h-fit pt-20 md:pt-28 lg:pt-40 z-50  px-4">
           <Hero_cta />
           <HeroServices />
         </div>

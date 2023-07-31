@@ -3,11 +3,12 @@ import React from "react";
 // flex-wrap text-center mr-auto w-[100%]
 const HeroServices = () => {
   return (
-    <div className="w-fit mx-auto md:block m-auto z-10 h-[60vh] lg:mt-28">
+    <div className="md:block m-auto z-10 h-[100vh] ">
+      {/* === DESKTOP VERSION === */}
       <div>
-        <div className="hidden lg:block m-auto z-10">
+        <div className="hidden md:block m-auto z-10 relative">
           <div className="pt-16 bg-blend-darken pl-6">
-            <div className="lg-css-typing text-6xl text-center sm:font-normal">
+            <div className="lg-css-typing text-6xl text-center">
               <p
                 id="consult"
                 className="text-slate-200 border-spacing-0  mx-auto"
@@ -28,9 +29,9 @@ const HeroServices = () => {
       </div>
 
       {/*========= MOBILE VERSION =======*/}
-      <div className="lg:hidden">
+      <div className="md:hidden">
         <div className="m-auto z-10 relative">
-          <div className="hero-text pt-16 bg-blend-darken pl-6">
+          <div className="hero-text pt-12 bg-blend-darken pl-6">
             <div className="css-typing text-6xl text-center">
               <p
                 id="consult"
