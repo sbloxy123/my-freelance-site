@@ -20,8 +20,8 @@ const Footer = () => {
         />
       </Link>
       <br />
-      <div className="mb-8 border ">
-        <Link itemProp="name" className="text-2xl md:text-4xl border" href="/">
+      <div className="mb-8">
+        <Link itemProp="name" className="text-2xl md:text-4xl" href="/">
           Bloxy Web Services.
         </Link>
       </div>
