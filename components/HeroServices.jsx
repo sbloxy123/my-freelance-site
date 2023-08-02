@@ -6,7 +6,7 @@ const HeroServices = () => {
     <div className="md:block m-auto z-10 h-[100vh] ">
       {/* === DESKTOP VERSION === */}
       <div>
-        <div className="hidden sm:block m-auto z-10 relative">
+        <div className="hidden sm:block m-auto lg:w-[70%] xl:w-[50%] z-10 relative">
           <div className="pt-16 bg-blend-darken ">
             <div className="lg-css-typing text-6xl text-center">
               <p
