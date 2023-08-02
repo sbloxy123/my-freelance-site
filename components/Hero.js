@@ -15,6 +15,9 @@ const Hero = () => {
             src="/images/hero6.jpg"
             alt="background image"
             fill
+            sizes="100vw"
+            style={{ objectFit: "cover" }}
+            // placeholder="blur"
             priority
             // objectFit="cover"
             // objectPosition="center"
