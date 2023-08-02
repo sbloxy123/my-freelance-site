@@ -12,13 +12,14 @@ const Hero = () => {
         <div className="">
           <Image
             className="opacity-40 bg-center"
-            src="/images/hero6.jpg"
+            src="/hero6.jpg"
             alt="background image"
             fill
             sizes="100vw"
             style={{ objectFit: "cover" }}
-            // placeholder="blur"
+            placeholder="blur"
             priority
+            blurDataURL="/hero6_blur.jpg"
             // objectFit="cover"
             // objectPosition="center"
           />
