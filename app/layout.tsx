@@ -1,6 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter, Mulish, Poppins } from "next/font/google";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
@@ -33,6 +34,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <GoogleAnalytics GA_MEASUREMENT_ID="G-M0Q3NR35G3" />
       <body
         className={`${mulish.variable} ${inter.className} ${poppins.variable} `}
       >

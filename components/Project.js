@@ -16,7 +16,7 @@ const ProjectTwo = () => {
   };
   return (
     <section className="md:content-container font-sans">
-      {projectData.projects.map((project) => {
+      {projectData.projects.map((project, index) => {
         const { id, title, summary, date_completed, preview_img, tags } =
           project;
 
@@ -24,7 +24,7 @@ const ProjectTwo = () => {
           <div
             key={id}
             className={`${
-              id % 2 === 0 && "md:flex-row-reverse"
+              index % 2 === 0 && "md:flex-row-reverse"
             } mx-auto text-theme_white-900 w-[90%] md:flex justify-items-center justify-center py-12 md:py-16`}
           >
             {/* ========= project text */}
@@ -67,7 +67,7 @@ const ProjectTwo = () => {
               </motion.div>
               <div
                 className={`${
-                  id % 2 === 0 && "md:ml-auto md:text-right"
+                  index % 2 === 0 && "md:ml-auto md:text-right"
                 } md:w-[80%] mb-10 md:mb-0`}
               >
                 {/* ==== DETAILS */}
@@ -76,19 +76,26 @@ const ProjectTwo = () => {
                     {para}
                   </p>
                 ))}
-                <h3 className="pt-2 pb-2 mb-4 border-b border-theme_yellow-900 capitalize text-theme_yellow-900 ">
+
+                <h3
+                  className={`${
+                    index % 2 === 0 && " text-left"
+                  } pt-2 pb-2 mb-4 border-b  border-theme_yellow-900 capitalize text-theme_yellow-900`}
+                >
                   Services provided:
                 </h3>
                 {/* ===== project tags */}
                 <div className="flex gap-1 flex-wrap">
                   {tags.map((tagName, index) => {
                     let tagColor;
-                    // E-Commerce", "Design", "Development", "Next.js", "Hosting", Strapi CMS (Content Management System)
                     if (tagName == "E-Commerce") {
                       tagColor = "bg-blue-200";
                     }
                     if (tagName == "Design") {
                       tagColor = "bg-green-200";
+                    }
+                    if (tagName == "Content Support") {
+                      tagColor = "bg-red-200";
                     }
                     if (tagName === "Development") {
                       tagColor = "bg-orange-200";

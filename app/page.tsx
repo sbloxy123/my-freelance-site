@@ -1,5 +1,4 @@
 import Hero from "../components/Hero";
-import MyIntro from "../components/MyIntro";
 import Project from "../components/Project";
 import MyServices from "../components/MyServices";
 import MyProcesses from "@/components/MyProcesses";

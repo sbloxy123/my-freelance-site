@@ -2,10 +2,22 @@ const projectData = {
   projects: [
     {
       id: 1,
+      title: "Dr Mould",
+      summary: [
+        "Full Design, development and hosting of specialist mould-cleaning company",
+        "Website needed strong calls to action whilst showcasing their knowledge and expertise in the specialist cleaning space of mould treatments.",
+        "Built for desktop and mobile devices, Dr Mould's diverse range of customers are able to access and navigate effectively through the website effectively",
+      ],
+      date_completed: "2023",
+      preview_img: "/images/dr-mould/dr-mould.png",
+      tags: ["Design", "Development", "Next.js", "Hosting", "Content Support"],
+    },
+    {
+      id: 1,
       title: "liquid coating experts",
       summary: [
         "Redesign & migration of an outdated e-commerce site from Opencart to Next.js & Medusa.",
-        "Final product offers client full control of their inventory and fulfilment using Medusa.js on the Admin side while benefiting from a fully customised website for their valued customers.",
+        "Final product offers client full control of their inventory and fulfilment using Medusa.js on the admin side while benefiting from a fully customised website for their valued customers.",
         "We supported Liquid Coating Expert with everything from the design and development to email templates and hosting. They even benefited from reduced transaction charges by migrating to the Stripe payment provider!",
       ],
       date_completed: "2023 - PRESENT",
@@ -42,8 +54,10 @@ const projectData = {
       tags: [
         "Design",
         "Development",
+        "Content Support",
         "Strapi CMS (Content Management System)",
         "Gatsby.js",
+        ,
       ],
     },
   ],
