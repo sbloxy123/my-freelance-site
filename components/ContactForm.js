@@ -3,7 +3,7 @@ import "../css/form.css";
 
 const ContactForm = () => {
   return (
-    <div className="my-formy bg-theme_black-900">
+    <div className="my-formy h-screen bg-theme_black-900">
       <div className="content-container py-12">
         <div className="d-flex justify-content-center align-items-center login-box">
           <div className="">

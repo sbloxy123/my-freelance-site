@@ -26,7 +26,7 @@ const Footer = () => {
         </Link>
       </div>
       <p itemProp="description" className="capitalize">
-        Professional website designer and developer
+        Professional Website Designer and Developer
       </p>
       <div className="my-10  w-[100%] m-auto pb-8 mb-8">
         <a itemProp="telephone" href="tel:07806615231">

@@ -27,6 +27,56 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://bloxywebservices.co.uk/",
+  name: "Stuart Bloxham - Web Designer & Developer",
+  url: "https://bloxywebservices.co.uk/",
+  logo: "https://www.bloxywebservices.co.uk/images/icons/logo.svg",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Hare Street",
+    addressLocality: "Buntingford",
+    addressRegion: "Hertfordshire",
+    addressCountry: "United Kingdom",
+    postalCode: "SG9 0EA",
+  },
+  telephone: "07806615231",
+  email: "stuart@bloxywebservices.co.uk",
+  image: [
+    "https://www.bloxywebservices.co.uk/opengraph-image.png?1581b81fa00074ce",
+    "/screenshot.png",
+  ],
+  openingHoursSpecification: {
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: [
+      {
+        "@type": "DayOfWeek",
+        name: "Monday",
+      },
+      {
+        "@type": "DayOfWeek",
+        name: "Tuesday",
+      },
+      {
+        "@type": "DayOfWeek",
+        name: "Wednesday",
+      },
+      {
+        "@type": "DayOfWeek",
+        name: "Thursday",
+      },
+      {
+        "@type": "DayOfWeek",
+        name: "Friday",
+      },
+    ],
+    opens: "08:00",
+    closes: "17:30",
+  },
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -35,6 +85,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <GoogleAnalytics GA_MEASUREMENT_ID="G-M0Q3NR35G3" />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <body
         className={`${mulish.variable} ${inter.className} ${poppins.variable} `}
       >
