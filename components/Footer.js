@@ -11,7 +11,6 @@ const Footer = () => {
     >
       <Link href="/">
         <Image
-          itemProp="logo"
           alt="logo"
           src="/images/icons/logo.svg"
           className="mb-6 w-fit mx-auto"
