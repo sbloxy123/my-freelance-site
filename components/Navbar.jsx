@@ -53,7 +53,7 @@ function Nav() {
                     href="information"
                     className="nav-link px-3 py-2 text-md font-sans font-light"
                   >
-                    <span itemProp="name">Information</span>
+                    <span itemProp="name">About Next JS</span>
                   </Link>
 
                   <Link
@@ -153,7 +153,7 @@ function Nav() {
                   onClick={() => setIsOpen(!isOpen)}
                   className="nav-link px-3 py-2 text-md font-sans font-light block"
                 >
-                  Information
+                  About Next JS
                 </Link>
 
                 <Link

@@ -54,7 +54,7 @@ const MyServices = () => {
     <section itemScope itemType="https://schema.org/CreativeWork">
       <div className="bg-theme_peach-900 py-10 font-light tracking-wide">
         <div className="m-4 medium:content-container">
-          <motion.h3
+          <motion.h2
             initial={{ x: -100 }}
             whileInView={{ x: 0 }}
             transition={{
@@ -64,7 +64,7 @@ const MyServices = () => {
             className="uppercase tracking-widest text-xl md:py-12 pb-6 m-auto w-[100%] font-extralight"
           >
             Services.
-          </motion.h3>
+          </motion.h2>
 
           <div className="md:content-container sm:grid grid-cols-2 my-4 mx-auto gap-6">
             {/* ============================ */}

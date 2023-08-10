@@ -145,8 +145,8 @@ const ProjectTwo = () => {
                 className="w-auto h-auto"
                 src={preview_img}
                 alt="lce"
-                width={500}
-                height={500}
+                width={640}
+                height={670}
                 priority={false}
               />
             </motion.div>

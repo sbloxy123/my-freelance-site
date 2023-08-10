@@ -63,7 +63,7 @@ const Footer = () => {
             className="hover:text-theme_dark_orange-900"
             href="/information/"
           >
-            Information
+            About Next JS
           </Link>
         </li>
         <li>
