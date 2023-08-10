@@ -3,23 +3,23 @@ import { MetadataRoute } from "next";
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: "https://bloxywebservice.co.uk",
+      url: "https://bloxywebservices.co.uk",
       lastModified: new Date(),
     },
     {
-      url: "https://bloxywebservice.co.uk/services",
+      url: "https://bloxywebservices.co.uk/services",
       lastModified: new Date(),
     },
     {
-      url: "https://bloxywebservice.co.uk/projects",
+      url: "https://bloxywebservices.co.uk/projects",
       lastModified: new Date(),
     },
     {
-      url: "https://bloxywebservice.co.uk/information",
+      url: "https://bloxywebservices.co.uk/information",
       lastModified: new Date(),
     },
     {
-      url: "https://bloxywebservice.co.uk/contact",
+      url: "https://bloxywebservices.co.uk/contact",
       lastModified: new Date(),
     },
   ];
