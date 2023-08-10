@@ -19,39 +19,49 @@ function Nav() {
             </div>
             <div className="flex items-center">
               <div className="hidden md:block">
-                <div className="ml-10 flex items-baseline space-x-4 ">
+                <div
+                  itemScope
+                  itemType="https://schema.org/SiteNavigationElement"
+                  className="ml-10 flex items-baseline space-x-4 "
+                >
                   <Link
+                    itemProp="url"
                     href="/"
                     className="nav-link  px-3 py-2 text-md font-sans font-light"
                   >
-                    Home
+                    <span itemProp="name">Home</span>
                   </Link>
 
                   <Link
+                    itemProp="url"
                     href="/services"
                     className="nav-link px-3 py-2 text-md font-sans font-light "
                   >
-                    Services
+                    {" "}
+                    <span itemProp="name">Services</span>
                   </Link>
 
                   <Link
+                    itemProp="url"
                     href="/projects"
                     className="nav-link px-3 py-2 text-md font-sans font-light"
                   >
-                    My Work
+                    <span itemProp="name">My Work</span>
                   </Link>
                   <Link
+                    itemProp="url"
                     href="information"
                     className="nav-link px-3 py-2 text-md font-sans font-light"
                   >
-                    Information
+                    <span itemProp="name">Information</span>
                   </Link>
 
                   <Link
+                    itemProp="url"
                     href="contact"
                     className="nav-link px-3 py-2 text-md font-sans font-light"
                   >
-                    Contact
+                    <span itemProp="name">Contact</span>
                   </Link>
                 </div>
               </div>
