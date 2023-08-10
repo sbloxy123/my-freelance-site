@@ -1,11 +1,11 @@
+"use client";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import HeroServices from "./HeroServices";
 
 const Hero_cta = () => {
   return (
     <div className="h-fit z-50 lg:w-[70%] md:w-[80%]">
-      <motion.h1
+      <motion.p
         initial={{ opacity: 0, scale: 0.5 }}
         whileInView={{ opacity: 1, scale: 1 }}
         viewport={{ once: true }}
@@ -16,7 +16,7 @@ const Hero_cta = () => {
         using{" "}
         <span className="text-theme_peach-900 font-normal"> Next.js </span> and
         <span className="text-theme_green-900 font-normal"> React</span>
-      </motion.h1>
+      </motion.p>
       <div className="action-buttons md:flex gap-6 mt-16 capitalize w-[80%] lg:mt-26 mx-auto md:mr-[100%]">
         <motion.div
           className="md:w-[50%]"
