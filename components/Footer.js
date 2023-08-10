@@ -30,12 +30,14 @@ const Footer = () => {
       <div className="my-10  w-[100%] m-auto pb-8 mb-8">
         <a itemProp="telephone" href="tel:07806615231">
           Tel:{" "}
-          <span className="hover:text-theme_dark_orange-900">07806 615231</span>
+          <span className="hover:text-theme_dark_orange-900 ease-in-out duration-300">
+            07806 615231
+          </span>
         </a>
         <br />
         <a itemProp="email" href="mailto:stuart@bloxywebservices.co.uk">
           Email:{" "}
-          <span className="hover:text-theme_dark_orange-900">
+          <span className="hover:text-theme_dark_orange-900 ease-in-out duration-300">
             stuart@bloxywebservices.co.uk
           </span>
         </a>
@@ -44,30 +46,42 @@ const Footer = () => {
       {/* <hr className="my-10 h-1 mb-8 w-[50%] mx-auto  bg-theme_black-900"></hr> */}
       <ul className="p-0 mb-8 text-theme_black-900">
         <li>
-          <Link className="hover:text-theme_dark_orange-900" href="/">
+          <Link
+            className="hover:text-theme_dark_orange-900 ease-in-out duration-300"
+            href="/"
+          >
             Home
           </Link>
         </li>
         <li>
-          <Link className="hover:text-theme_dark_orange-900" href="/services/">
+          <Link
+            className="hover:text-theme_dark_orange-900 ease-in-out duration-300"
+            href="/services/"
+          >
             Services
           </Link>
         </li>
         <li>
-          <Link className="hover:text-theme_dark_orange-900" href="/projects/">
+          <Link
+            className="hover:text-theme_dark_orange-900 ease-in-out duration-300"
+            href="/projects/"
+          >
             Projects
           </Link>
         </li>
         <li>
           <Link
-            className="hover:text-theme_dark_orange-900"
+            className="hover:text-theme_dark_orange-900 ease-in-out duration-300"
             href="/information/"
           >
             About Next JS
           </Link>
         </li>
         <li>
-          <Link className="hover:text-theme_dark_orange-900" href="/contact/">
+          <Link
+            className="hover:text-theme_dark_orange-900 ease-in-out duration-300"
+            href="/contact/"
+          >
             Get in touch
           </Link>
         </li>

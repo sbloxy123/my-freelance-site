@@ -3,7 +3,7 @@ import React from "react";
 // flex-wrap text-center mr-auto w-[100%]
 const HeroServices = () => {
   return (
-    <div className="md:block m-auto z-10 h-[100vh] ">
+    <div className="md:block m-auto z-10 h-[100vh]">
       {/* === DESKTOP VERSION === */}
       <div>
         <div className="hidden sm:block m-auto lg:w-[70%] xl:w-[50%] z-10 relative">

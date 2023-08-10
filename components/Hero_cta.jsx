@@ -28,7 +28,7 @@ const Hero_cta = () => {
           }}
           viewport={{ once: true }}
         >
-          <div className="py-3 md:px-15 w-full text-center mb-6 rounded-sm text-lg bg-theme_green-900 hover:bg-theme_black-900 hover:text-theme_green-900 uppercase border border-theme_black-900 hover:border-2 hover:border-theme_green-900">
+          <div className="py-3 md:px-15 w-full text-center mb-6 rounded-sm text-lg bg-theme_green-900 hover:bg-theme_black-900 hover:text-theme_green-900 uppercase border border-theme_black-900 hover:border-2 hover:border-theme_green-900 ease-in-out duration-300">
             <Link type="button" href="/projects/">
               My Work
             </Link>
@@ -44,7 +44,7 @@ const Hero_cta = () => {
           }}
           viewport={{ once: true }}
         >
-          <div className="py-3 md:px-15 uppercase w-full text-center mb-6 rounded-sm border-2 border-theme_dark_orange-900 text-theme_dark_orange-900 font-semibold text-lg hover:text-theme_black-900 hover:bg-theme_light_orange-900">
+          <div className="py-3 md:px-15 uppercase w-full text-center mb-6 rounded-sm border-2 border-theme_dark_orange-900 text-theme_dark_orange-900 font-semibold text-lg hover:text-theme_black-900 hover:bg-theme_light_orange-900 ease-in-out duration-300">
             <Link type="button" href="/information/">
               What is Next.js?
             </Link>

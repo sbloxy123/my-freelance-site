@@ -3,7 +3,7 @@ import React from "react";
 import Hero_cta from "./Hero_cta";
 import "../css/typewriter.css";
 import Image from "next/image";
-import HeroServices from "./HeroServices";
+// import HeroServices from "./HeroServices";
 
 const Hero = () => {
   return (
@@ -15,7 +15,7 @@ const Hero = () => {
             src="/hero6.jpg"
             alt="background image"
             fill
-            sizes="100vw"
+            sizes="100%"
             style={{ objectFit: "cover" }}
             placeholder="blur"
             priority
@@ -26,7 +26,7 @@ const Hero = () => {
         </div>
         <div className="relative md:content-container h-fit pt-20 md:pt-28 lg:pt-40 z-50  px-4">
           <Hero_cta />
-          <HeroServices />
+          {/* <HeroServices /> */}
         </div>
       </div>
     </>
