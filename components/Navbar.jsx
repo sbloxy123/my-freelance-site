@@ -46,7 +46,7 @@ function Nav() {
                     href="/projects"
                     className="nav-link px-3 py-2 text-md font-sans font-light"
                   >
-                    <span itemProp="name">My Work</span>
+                    <span itemProp="name">Projects</span>
                   </Link>
                   <Link
                     itemProp="url"
@@ -146,7 +146,7 @@ function Nav() {
                   onClick={() => setIsOpen(!isOpen)}
                   className="nav-link px-3 py-2 text-md font-sans font-light block"
                 >
-                  My Work
+                  Projects
                 </Link>
                 <Link
                   href="information"

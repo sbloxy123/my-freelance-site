@@ -50,7 +50,7 @@ const ProjectTwo = () => {
                 initial={{ opacity: 0, scale: 0.4 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{
-                  delay: 0.6,
+                  delay: 0.2,
                   duration: 0.2,
                 }}
                 viewport={{ once: true }}
@@ -135,7 +135,7 @@ const ProjectTwo = () => {
               initial={{ opacity: 0, scale: 0.4 }}
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{
-                delay: 0.6,
+                delay: 0.2,
                 duration: 0.2,
               }}
               viewport={{ once: true }}

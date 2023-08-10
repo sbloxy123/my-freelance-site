@@ -29,12 +29,9 @@ const Footer = () => {
         Professional website designer and developer
       </p>
       <div className="my-10  w-[100%] m-auto pb-8 mb-8">
-        <a
-          itemProp="telephone"
-          href="tel:07806615231"
-          className="hover:text-theme_dark_orange-900"
-        >
-          Tel: 07806 615231
+        <a itemProp="telephone" href="tel:07806615231">
+          Tel:{" "}
+          <span className="hover:text-theme_dark_orange-900">07806 615231</span>
         </a>
         <br />
         <a itemProp="email" href="mailto:stuart@bloxywebservices.co.uk">
@@ -59,7 +56,7 @@ const Footer = () => {
         </li>
         <li>
           <Link className="hover:text-theme_dark_orange-900" href="/projects/">
-            My work
+            Projects
           </Link>
         </li>
         <li>
