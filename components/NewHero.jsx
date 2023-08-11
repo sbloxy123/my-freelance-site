@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import blur from "@/public/images/blur.png";
-import Typed from "react-typed";
+// import Typed from "react-typed";
 import { motion } from "framer-motion";
 
 import { Courier_Prime } from "next/font/google";
@@ -77,7 +77,7 @@ const NewHero = () => {
           </motion.div>
         </div>{" "}
         {/* ====== typed ===== */}
-        <h2 className="font-courier text-3xl sm:text-4xl mt-10">
+        {/* <h2 className="font-courier text-3xl sm:text-4xl mt-10">
           {" "}
           <Typed
             strings={["CONSULT.   DESIGN.   DEVELOP"]}
@@ -86,7 +86,7 @@ const NewHero = () => {
             // backSpeed={100}
             // loop
           />{" "}
-        </h2>
+        </h2> */}
       </div>
     </div>
   );
