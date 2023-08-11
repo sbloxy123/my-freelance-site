@@ -27,7 +27,7 @@ const NewHero = () => {
         className="absolute animate-pulse"
       />
       {/* Main Text */}
-      <div className="flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center pt-16 md:pt-28">
+      <div className="flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center pt-28 md:pt-28">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-normal z-20 w-[90vw]">
           Freelance Web Designer and Developer building incredibly fast, smooth
           & performant websites with{" "}
@@ -42,7 +42,7 @@ const NewHero = () => {
           </span>
         </h1>
         {/* buttons */}
-        <div className="relative action-buttons md:flex justify-center gap-6 mt-16 capitalize w-[80%] lg:mt-26 mx-auto ">
+        <div className="relative action-buttons md:flex justify-center gap-6 mt-36 capitalize w-[80%] lg:mt-26 mx-auto ">
           <motion.div
             className="md:w-[50%]"
             initial={{ opacity: 0, scale: 0.5 }}
