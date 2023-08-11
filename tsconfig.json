@@ -28,7 +28,8 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "components/ProjectPreview.js"
+    "components/ProjectPreview.js",
+    "components/NewHero.jsx"
   ],
   "exclude": ["node_modules"]
 }
