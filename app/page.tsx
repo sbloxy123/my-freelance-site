@@ -1,12 +1,14 @@
-import Hero from "../components/Hero";
+// import Hero from "../components/Hero";
 import Project from "../components/Project";
 import MyServices from "../components/MyServices";
 import MyProcesses from "@/components/MyProcesses";
+import NewHero from "@/components/NewHero";
 
 export default function Home() {
   return (
     <main className="bg-theme_white-900">
-      <Hero />
+      {/* <Hero /> */}
+      <NewHero />
       {/* <MyIntro /> */}
       <MyServices />
       <MyProcesses />

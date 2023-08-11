@@ -1,6 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter, Mulish, Poppins } from "next/font/google";
+import { Courier_Prime, Inter, Mulish, Poppins } from "next/font/google";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -12,6 +12,11 @@ const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   subsets: ["latin"],
   variable: "--font-poppins",
+});
+const courier = Courier_Prime({
+  weight: ["400", "700"],
+  subsets: ["latin"],
+  variable: "--font-courier",
 });
 const mulish = Mulish({
   weight: ["200", "300", "400", "500", "600", "700", "800", "900"],

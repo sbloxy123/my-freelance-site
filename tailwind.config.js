@@ -61,6 +61,7 @@ module.exports = {
           "sans-serif",
         ],
         display: ["var--font-poppins"],
+        courier: ["var--font-courier"],
       },
     },
   },
