@@ -5,6 +5,7 @@ import GoogleAnalytics from "@/components/GoogleAnalytics";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { LocalBusiness, WithContext } from "schema-dts";
+import CookieBanner from "@/components/CookieBanner";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -96,6 +97,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+        <CookieBanner />
       </body>
     </html>
   );
