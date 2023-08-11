@@ -13,7 +13,7 @@ const projectData = {
       tags: ["Design", "Development", "Next.js", "Hosting", "Content Support"],
     },
     {
-      id: 1,
+      id: 2,
       title: "liquid coating experts",
       summary: [
         "Redesign & migration of an outdated e-commerce site from Opencart to Next.js & Medusa.",
@@ -25,7 +25,7 @@ const projectData = {
       tags: ["E-Commerce", "Design", "Development", "Next.js", "Hosting"],
     },
     {
-      id: 2,
+      id: 3,
       title: "Lace & Blossom",
       summary: [
         "Full design and build of Lace & Blossom's website which helped showcase their products alongside their social media following",
@@ -42,7 +42,7 @@ const projectData = {
       ],
     },
     {
-      id: 3,
+      id: 4,
       title: "Bryan Johnson Cichlids",
       summary: [
         "Bryan is a specialist Flowerhorn fish seller who wanted a website to showcase his business and provide customers with a comprehensive care guide for keeping Flowerhorns.",
