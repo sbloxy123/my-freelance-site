@@ -11,11 +11,12 @@ const NewHero = () => {
         fill
         style={{ objectFit: "cover", position: "absolute" }}
         quality={100}
-        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-        placeholder="blur"
-        blurDataURL="/blur-placeholder.png"
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 20vw"
         className="animate-pulse"
+        loading="eager"
       />
+      {/* // placeholder="blur"
+        // blurDataURL="/blur-placeholder.png" */}
       {/* Main Text */}
       <div className="flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center pt-28 md:pt-28">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl tracking-normal z-20 w-[90vw]">
