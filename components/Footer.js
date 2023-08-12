@@ -24,14 +24,14 @@ const Footer = () => {
       <div className="my-10  w-[100%] m-auto pb-8 mb-8">
         <a href="tel:07806615231">
           Tel:{" "}
-          <span className="hover:text-theme_dark_orange-900 ease-in-out duration-300">
+          <span className="hover:text-theme_dark_orange-900 ease-in-out duration-300 px-2 py-2">
             07806 615231
           </span>
         </a>
         <br />
         <a href="mailto:stuart@bloxywebservices.co.uk">
           Email:{" "}
-          <span className="hover:text-theme_dark_orange-900 ease-in-out duration-300">
+          <span className="hover:text-theme_dark_orange-900 ease-in-out duration-300 px-2 py-2">
             stuart@bloxywebservices.co.uk
           </span>
         </a>
@@ -39,44 +39,44 @@ const Footer = () => {
       <div className="border-b border-theme_black-900 w-[80%] m-auto mb-10"></div>
       {/* <hr className="my-10 h-1 mb-8 w-[50%] mx-auto  bg-theme_black-900"></hr> */}
       <ul className="p-0 mb-8 text-theme_black-900">
-        <li>
+        <li className="w-fit m-auto">
           <Link
             className="hover:text-theme_dark_orange-900 ease-in-out duration-300"
             href="/"
           >
-            Home
+            <p className="py-1 px-4">Home</p>
           </Link>
         </li>
-        <li>
+        <li className="w-fit m-auto">
           <Link
             className="hover:text-theme_dark_orange-900 ease-in-out duration-300"
             href="/services/"
           >
-            Services
+            <p className="py-1 px-4">Services</p>
           </Link>
         </li>
-        <li>
+        <li className="w-fit m-auto">
           <Link
             className="hover:text-theme_dark_orange-900 ease-in-out duration-300"
             href="/projects/"
           >
-            Projects
+            <p className="py-1 px-4">Projects</p>
           </Link>
         </li>
-        <li>
+        <li className="w-fit m-auto">
           <Link
             className="hover:text-theme_dark_orange-900 ease-in-out duration-300"
             href="/information/"
           >
-            About Next JS
+            <p className="py-1 px-4">About Next JS</p>
           </Link>
         </li>
-        <li>
+        <li className="w-fit m-auto">
           <Link
             className="hover:text-theme_dark_orange-900 ease-in-out duration-300"
             href="/contact/"
           >
-            Get in touch
+            <p className="py-1 px-4">Get in touch</p>
           </Link>
         </li>
       </ul>

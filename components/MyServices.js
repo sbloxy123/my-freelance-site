@@ -97,7 +97,7 @@ const MyServices = () => {
                   />
                   <div className="md:col-span-3 text-center mb-5 md:text-left">
                     <div className="h-10 mb-5 sm:mb-10 md:mb-14 lg:mb-8">
-                      <h4 className="text-xl">{service.title}</h4>
+                      <h3 className="text-xl">{service.title}</h3>
                     </div>
                     <div className="service-text">
                       <p>{service.description}</p>

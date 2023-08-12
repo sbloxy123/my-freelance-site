@@ -94,7 +94,7 @@ const ProjectTwo = () => {
                     if (tagName == "Design") {
                       tagColor = "bg-green-200";
                     }
-                    if (tagName == "Content Support") {
+                    if (tagName == "Content Creation") {
                       tagColor = "bg-red-200";
                     }
                     if (tagName === "Development") {

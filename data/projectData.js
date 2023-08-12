@@ -10,7 +10,7 @@ const projectData = {
       ],
       date_completed: "2023",
       preview_img: "/images/dr-mould/dr-mould.png",
-      tags: ["Design", "Development", "Next.js", "Hosting", "Content Support"],
+      tags: ["Design", "Development", "Next.js", "Hosting", "Content Creation"],
     },
     {
       id: 2,
@@ -54,7 +54,7 @@ const projectData = {
       tags: [
         "Design",
         "Development",
-        "Content Support",
+        "Content Creation",
         "Strapi CMS (Content Management System)",
         "Gatsby.js",
         ,
