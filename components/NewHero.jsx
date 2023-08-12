@@ -20,10 +20,10 @@ const NewHero = () => {
         src={blur}
         alt="blur"
         fill
-        sizes="auto"
-        quality={60}
+        style={{ objectFit: "cover", position: "absolute" }}
+        quality={100}
         priority
-        className="absolute cover animate-pulse"
+        className="animate-pulse"
       />
       {/* Main Text */}
       <div className="flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center pt-28 md:pt-28">
@@ -52,7 +52,7 @@ const NewHero = () => {
             }}
             viewport={{ once: true }}
           >
-            <div className="py-3 md:px-15 w-full text-center mb-6 rounded-sm text-lg bg-theme_green-900 hover:bg-theme_black-900 hover:text-theme_green-900 capitalize border border-theme_black-900 hover:border-2 hover:border-theme_green-900 ease-in-out duration-300">
+            <div className="py-3 md:px-15 w-full text-center mb-6 rounded-sm text-lg bg-theme_green-900 hover:bg-theme_black-900 hover:text-theme_green-900 capitalize border border-theme_black-900 hover:border-2 hover:border-theme_green-900 ease-in-out duration-300 cursor-pointer">
               <Link type="button" href="/projects/">
                 Projects
               </Link>
@@ -68,7 +68,7 @@ const NewHero = () => {
             }}
             viewport={{ once: true }}
           >
-            <div className="py-3 md:px-15 capitalize w-full text-center mb-6 rounded-sm border-2 border-theme_dark_orange-900 text-theme_dark_orange-900 font-semibold text-lg hover:text-theme_black-900 hover:bg-theme_light_orange-900 ease-in-out duration-300">
+            <div className="py-3 md:px-15 capitalize w-full text-center mb-6 rounded-sm border-2 border-theme_dark_orange-900 text-theme_dark_orange-900 font-semibold text-lg hover:text-theme_black-900 hover:bg-theme_light_orange-900 ease-in-out duration-300 cursor-pointer">
               <Link type="button" href="/information/">
                 What is NEXT.jS?
               </Link>
