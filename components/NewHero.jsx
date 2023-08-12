@@ -20,6 +20,7 @@ const NewHero = () => {
         src={blur}
         alt="blur"
         fill
+        sizes="auto"
         quality={60}
         priority
         className="absolute cover animate-pulse"
