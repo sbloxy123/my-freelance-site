@@ -2,7 +2,9 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import blur from "@/public/images/blur.png";
+import blur from "@/public/blur.png";
+import blurPlaceholder from "@/public/blur-placeholder.png";
+
 import { motion } from "framer-motion";
 
 const NewHero = () => {
@@ -13,11 +15,15 @@ const NewHero = () => {
           src={blur}
           alt="blur"
           fill
-          style={{ objectFit: "contain", position: "absolute" }}
+          // width={300}
+          // height={300}
+          style={{ objectFit: "cover", position: "absolute" }}
           quality={100}
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          priority
-          loading="eager"
+          // priority
+          placeholder="blur"
+          blurDataURL="/blur-placeholder.png"
+          // loading="eager"
           className="animate-pulse"
         />
         {/* Main Text */}
