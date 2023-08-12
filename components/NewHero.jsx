@@ -22,7 +22,7 @@ const NewHero = () => {
         alt="blur"
         layout="fill"
         objectFit="cover"
-        quality={100}
+        quality={60}
         priority
         className="absolute animate-pulse"
       />
