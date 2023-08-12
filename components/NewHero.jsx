@@ -14,7 +14,6 @@ const NewHero = () => {
         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         placeholder="blur"
         blurDataURL="/blur-placeholder.png"
-        loading="lazy"
         className="animate-pulse"
       />
       {/* Main Text */}
