@@ -3,25 +3,18 @@
 import Image from "next/image";
 import Link from "next/link";
 import blur from "@/public/images/blur.png";
-// import Typed from "react-typed";
 import { motion } from "framer-motion";
 
-import { Courier_Prime } from "next/font/google";
-
-const courier = Courier_Prime({
-  weight: ["400", "700"],
-  subsets: ["latin"],
-  variable: "--font-courier",
-});
 const NewHero = () => {
   return (
-    <div className={` ${courier.variable} h-screen  bg-[#ecf0f3] relative`}>
+    <div className="h-[100vh]  bg-[#ecf0f3] relative">
       <Image
         src={blur}
         alt="blur"
         fill
         style={{ objectFit: "cover", position: "absolute" }}
         quality={100}
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         priority
         className="animate-pulse"
       />
@@ -74,18 +67,7 @@ const NewHero = () => {
               </Link>
             </div>
           </motion.div>
-        </div>{" "}
-        {/* ====== typed ===== */}
-        {/* <h2 className="font-courier text-3xl sm:text-4xl mt-10">
-          {" "}
-          <Typed
-            strings={["CONSULT.   DESIGN.   DEVELOP"]}
-            typeSpeed={150}
-            startDelay={800}
-            // backSpeed={100}
-            // loop
-          />{" "}
-        </h2> */}
+        </div>
       </div>
     </div>
   );
