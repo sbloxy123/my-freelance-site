@@ -1,5 +1,4 @@
 import ProjectTwo from "@/components/Project";
-import React from "react";
 
 const Projects = () => {
   return (

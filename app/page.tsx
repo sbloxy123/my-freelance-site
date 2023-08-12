@@ -1,4 +1,3 @@
-// import Hero from "../components/Hero";
 import Project from "../components/Project";
 import MyServices from "../components/MyServices";
 import MyProcesses from "@/components/MyProcesses";
@@ -7,9 +6,7 @@ import NewHero from "@/components/NewHero";
 export default function Home() {
   return (
     <main className="bg-theme_white-900">
-      {/* <Hero /> */}
       <NewHero />
-      {/* <MyIntro /> */}
       <MyServices />
       <MyProcesses />
       <div className="bg-theme_black-900">
@@ -18,7 +15,6 @@ export default function Home() {
         </h2>
         <Project />
       </div>
-      {/* <ContactForm /> */}
     </main>
   );
 }

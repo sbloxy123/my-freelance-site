@@ -1,7 +1,6 @@
 "use client";
 import ContactForm from "@/components/ContactForm";
 import WhyNext from "@/components/WhyNext";
-import React from "react";
 import { motion } from "framer-motion";
 
 const page = () => {
