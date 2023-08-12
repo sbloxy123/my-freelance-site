@@ -15,17 +15,14 @@ const courier = Courier_Prime({
 });
 const NewHero = () => {
   return (
-    <div
-      className={` ${courier.variable} h-screen w-full bg-[#ecf0f3] relative`}
-    >
+    <div className={` ${courier.variable} h-screen  bg-[#ecf0f3] relative`}>
       <Image
         src={blur}
         alt="blur"
-        layout="fill"
-        objectFit="cover"
+        fill
         quality={60}
         priority
-        className="absolute animate-pulse"
+        className="absolute cover animate-pulse"
       />
       {/* Main Text */}
       <div className="flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center pt-28 md:pt-28">
