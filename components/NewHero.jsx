@@ -10,9 +10,9 @@ const NewHero = () => {
         alt="blur"
         fill
         style={{ objectFit: "cover", position: "absolute" }}
-        quality={100}
+        quality={10}
         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-        // className="animate-pulse"
+        className="animate-pulse"
         priority
       />
       {/* // placeholder="blur"
@@ -23,12 +23,12 @@ const NewHero = () => {
           Freelance Web Designer and Developer building incredibly fast, smooth
           & performant websites with{" "}
         </h1>
-        <h1 className="text-4xl sm:text-6xl font-bold tracking-normal z-20 w-[70vw]">
-          <span className="bg-gradient-to-r from-[#ff781f] to-[#ffaf7a] text-transparent bg-clip-text">
+        <h1 className="text-4xl sm:text-6xl tracking-normal z-20 w-[70vw]">
+          <span className="bg-gradient-to-r from-hero_dark_orange-900 to-hero_light_orange-900 text-transparent bg-clip-text font-bold">
             Next.js
           </span>{" "}
           &{" "}
-          <span className="bg-gradient-to-r from-[#ff781f] to-[#ffaf7a] text-transparent bg-clip-text">
+          <span className="bg-gradient-to-r from-hero_dark_orange-900 to-hero_light_orange-900 text-transparent bg-clip-text font-bold">
             React
           </span>
         </h1>

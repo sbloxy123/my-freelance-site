@@ -38,6 +38,12 @@ module.exports = {
         theme_dark_orange: {
           900: "rgb(212, 135, 50, 1)",
         },
+        hero_light_orange: {
+          900: "rgb(255, 175, 122, 1)",
+        },
+        hero_dark_orange: {
+          900: "rgb(255, 120, 31, 1)",
+        },
       },
       screens: {
         "2xsmall": "320px",
