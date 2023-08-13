@@ -4,7 +4,7 @@ import HeroCTA from "./HeroCTA";
 
 const NewHero = () => {
   return (
-    <div className="md:h-screen md:w-screen max-w-full max-h-full bg-[#ecf0f3] relative">
+    <div className="md:h-screen max-h-full bg-[#ecf0f3] relative">
       <Image
         src={blur}
         alt="blur"
@@ -12,7 +12,7 @@ const NewHero = () => {
         style={{ objectFit: "cover", position: "absolute" }}
         quality={100}
         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-        className="animate-pulse"
+        // className="animate-pulse"
         priority
       />
       {/* // placeholder="blur"
