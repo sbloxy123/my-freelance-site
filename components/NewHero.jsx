@@ -4,7 +4,7 @@ import HeroCTA from "./HeroCTA";
 
 const NewHero = () => {
   return (
-    <div className="h-screen bg-[#ecf0f3] relative overflow-hidden">
+    <div className="md:h-screen max-h-full bg-[#ecf0f3] relative overflow-hidden">
       <Image
         src={blur}
         alt="blur"
