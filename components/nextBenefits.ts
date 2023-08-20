@@ -17,7 +17,7 @@ export const allIngredients = [
   {
     icon: "",
     label: "3. Attractive and Consistent Design",
-    text: "Allows us to create beautiful and consistent designs for your website. It ensures that the colors, styles, and layouts stay the same across all pages, making your website look professional and appealing.",
+    text: "Allows us to create beautiful and consistent designs for your website. It ensures that the colours, styles, and layouts stay the same across all pages, making your website look professional and appealing.",
   },
   {
     icon: "",
