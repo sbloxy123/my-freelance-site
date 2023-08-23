@@ -23,8 +23,10 @@ const MyIntro = () => {
                 itemProp="about"
                 className="md:text-xl md:pb-6 md:text-left text-2xl text-center font-extralight"
               >
-                <span className="font-normal">Hello! I'm Stuart Bloxham.</span>{" "}
-                I'm dedicated Freelance Web Designer and Developer with a
+                <span className="font-normal">
+                  Hello! I&apos;m Stuart Bloxham.
+                </span>{" "}
+                I&apos;m dedicated Freelance Web Designer and Developer with a
                 passion revolved around crafting{" "}
                 <span className="font-normal">
                   fast, fluid, and high-performing
@@ -41,8 +43,8 @@ const MyIntro = () => {
                 className="md:text-xl md:pb-6 md:text-left text-2xl text-center font-extralight"
               >
                 With a strong combination of design and development expertise, I
-                can help guide you throughout the entire process. Whether it's
-                from the ground up, starting with{" "}
+                can help guide you throughout the entire process. Whether
+                it&apos;s from the ground up, starting with{" "}
                 <span className="font-normal">
                   wireframes, design, and development
                 </span>
