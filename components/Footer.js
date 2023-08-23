@@ -32,15 +32,10 @@ const Footer = () => {
           </a>
         </span>
         <br />
-        <span>
+        <p>
           Email:{" "}
-          <a
-            className="hover:text-theme_dark_orange-900 ease-in-out duration-300 px-2 py-2"
-            href="mailto:stuart@bloxywebservices.co.uk"
-          >
-            stuart@bloxywebservices.co.uk
-          </a>
-        </span>
+          <span className="px-2 py-2">stuart@bloxywebservices.co.uk</span>
+        </p>
       </div>
       <div className="border-b border-theme_black-900 w-[80%] m-auto mb-10"></div>
       {/* <hr className="my-10 h-1 mb-8 w-[50%] mx-auto  bg-theme_black-900"></hr> */}

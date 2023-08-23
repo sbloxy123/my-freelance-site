@@ -17,11 +17,15 @@ const MyIntro = () => {
           <div className="flex flex-col-reverse md:flex md:flex-row gap-2 md:gap-6">
             <div className="my-auto md:w-[70%]">
               <motion.p
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0, y: 100 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{
+                  bounce: 0,
+                  delay: 0.5,
+                }}
                 viewport={{ once: true }}
                 itemProp="about"
-                className="md:text-xl md:pb-6 md:text-left text-2xl text-center font-extralight"
+                className="md:text-xl md:pb-6 md:text-left text-2xl text-center font-extralight pt-4 md:pt-0"
               >
                 <span className="font-normal">
                   Hello! I&apos;m Stuart Bloxham.
@@ -36,11 +40,15 @@ const MyIntro = () => {
                 <span className="font-normal">Next Js</span>.
               </motion.p>
               <motion.p
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0, y: 100 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{
+                  bounce: 0,
+                  delay: 0.5,
+                }}
                 viewport={{ once: true }}
                 itemProp="about"
-                className="md:text-xl md:pb-6 md:text-left text-2xl text-center font-extralight"
+                className="md:text-xl md:pb-6 md:text-left text-2xl text-center font-extralight pt-4 md:pt-0"
               >
                 With a strong combination of design and development expertise, I
                 can help guide you throughout the entire process. Whether
@@ -103,7 +111,7 @@ const MyIntro = () => {
                 delay: 0.2,
                 duration: 0.4,
               }}
-              className="h-fit my-auto"
+              className="h-fit my-auto md:pb-20"
             >
               <Image
                 className="rounded-full align-middle mx-auto w-[50%] md:w-full"
