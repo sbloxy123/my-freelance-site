@@ -14,7 +14,7 @@ const MyIntro = () => {
     >
       <div className="max-w-7xl m-auto">
         <div className="my-10 w-[85%] m-auto">
-          <div className="flex flex-col-reverse md:flex md:flex-row gap-10 md:gap-20">
+          <div className="flex flex-col-reverse md:flex md:flex-row gap-2 md:gap-6">
             <div className="my-auto md:w-[70%]">
               <motion.p
                 initial={{ opacity: 0 }}
@@ -23,11 +23,15 @@ const MyIntro = () => {
                 itemProp="about"
                 className="md:text-xl md:pb-6 md:text-left text-2xl text-center font-extralight"
               >
-                A dedicated Freelance Web Designer and Developer based in with a
-                passion revolved around crafting fast, fluid, and
-                high-performing websites and web applications, all powered by
-                the dynamic capabilities of React, with a specific focus on Next
-                Js.
+                <span className="font-normal">Hello! I'm Stuart Bloxham.</span>{" "}
+                I'm dedicated Freelance Web Designer and Developer with a
+                passion revolved around crafting{" "}
+                <span className="font-normal">
+                  fast, fluid, and high-performing
+                </span>{" "}
+                websites and web applications, all powered by the dynamic
+                capabilities of React, with a specific focus on{" "}
+                <span className="font-normal">Next Js</span>.
               </motion.p>
               <motion.p
                 initial={{ opacity: 0 }}
@@ -38,9 +42,12 @@ const MyIntro = () => {
               >
                 With a strong combination of design and development expertise, I
                 can help guide you throughout the entire process. Whether it's
-                from the ground up, starting with wireframes, design, and
-                development, or refining an existing design into a meticulously
-                crafted website with thoughtful enhancements.{" "}
+                from the ground up, starting with{" "}
+                <span className="font-normal">
+                  wireframes, design, and development
+                </span>
+                , or refining an existing design into a meticulously crafted
+                website with thoughtful enhancements .{" "}
               </motion.p>
               {/* <!-- BUTTONS --> */}
               <div className="action-buttons md:flex gap-6 mt-6 capitalize ">
@@ -87,26 +94,24 @@ const MyIntro = () => {
             </div>
             {/* <!-- PORTRAIT IMG --> */}
 
-            <div className="">
-              <motion.div
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{
-                  delay: 0.2,
-                  duration: 0.4,
-                }}
-                className=""
-              >
-                <Image
-                  className="rounded-full md:my-8 mx-auto "
-                  src="/images/me.jpg"
-                  alt="my profile avatar image"
-                  placeholder="tracedSVG"
-                  width={600}
-                  height={600}
-                />
-              </motion.div>
-            </div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{
+                delay: 0.2,
+                duration: 0.4,
+              }}
+              className="h-fit my-auto"
+            >
+              <Image
+                className="rounded-full align-middle mx-auto w-[50%] md:w-full"
+                src="/images/me.jpg"
+                alt="my profile avatar image"
+                placeholder="tracedSVG"
+                width={500}
+                height={500}
+              />
+            </motion.div>
           </div>
         </div>
       </div>
