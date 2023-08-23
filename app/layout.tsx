@@ -13,11 +13,11 @@ const poppins = Poppins({
   subsets: ["latin"],
   variable: "--font-poppins",
 });
-const courier = Courier_Prime({
-  weight: ["400", "700"],
-  subsets: ["latin"],
-  variable: "--font-courier",
-});
+// const courier = Courier_Prime({
+//   weight: ["400", "700"],
+//   subsets: ["latin"],
+//   variable: "--font-courier",
+// });
 const mulish = Mulish({
   weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
   subsets: ["latin"],
@@ -29,6 +29,13 @@ export const metadata: Metadata = {
   description:
     "🚀 Supercharge your online presence with incredibly fast websites & apps 🚀 - E-Commerce 🛍️ | Lead Gen 🎯 | Business 🏢 | + more!",
   metadataBase: new URL("https://www.bloxywebservices.co.uk"),
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-US",
+      "en-gb": "/en-gb",
+    },
+  },
   openGraph: {
     images: "/opengraph-image.png",
   },
