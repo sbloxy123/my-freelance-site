@@ -39,7 +39,7 @@ const jsonLd: WithContext<LocalBusiness> = {
   "@type": "LocalBusiness",
   "@id": "https://bloxywebservices.co.uk/",
   name: "Stuart Bloxham - Web Designer & Developer",
-  url: "https://bloxywebservices.co.uk/",
+  url: "https://www.bloxywebservices.co.uk/",
   logo: "https://www.bloxywebservices.co.uk/images/icons/logo.svg",
   address: {
     "@type": "PostalAddress",

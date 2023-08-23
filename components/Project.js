@@ -67,7 +67,7 @@ const ProjectTwo = () => {
               </motion.div>
               <div
                 className={`${
-                  index % 2 === 0 && "md:ml-auto md:text-right"
+                  index % 2 === 0 && "md:ml-auto"
                 } md:w-[80%] mb-10 md:mb-0`}
               >
                 {/* ==== DETAILS */}
