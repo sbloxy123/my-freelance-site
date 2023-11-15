@@ -30,7 +30,7 @@ const MyIntro = () => {
                 <span className="font-normal">
                   Hello! I&apos;m Stuart Bloxham.
                 </span>{" "}
-                I&apos;m dedicated Freelance Web Designer and Developer with a
+                I&apos;m a dedicated Freelance Web Designer and Developer with a
                 passion revolved around crafting{" "}
                 <span className="font-normal">
                   fast, fluid, and high-performing
